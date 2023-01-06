@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.sidebar{
+    background-color: rgb(176, 169, 169);
+    /* width: 434px; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+.sidebar nav li a{
+        text-decoration: none;
+        color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(155, 27, 87); */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 58vh;
+   
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.about{
+    font-size: 20px;
+}
+.moreabout{
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+
+}
+.cv{
+    width: 170px;
+    
+}
+
+.buttons{
+    padding: 5px;
+}
+.cv{
+       padding: 6px;
+       border-radius: 22px;
+       color: white;
+       background-color: dodgerblue;
+       font-weight: bold;
+       font-size: 12px;
+       margin: 0 3px;
+       cursor: pointer;
+       margin: 2px;
+   
+}
+.cv:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+   
+}
+.namebox{
+    width: 300px;
+    border-radius: 8px;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.form-text{
+    font-size: 8px;
+    color: midnightblue;
+    margin-left: 20px;
+}
+.form-control{
+    width: 300px;
+    border-radius: 8px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(72, 72, 248);
+    font-weight: bold;
+
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+.intro{
+    margin: 50px;
+    /* padding: 50px; */
+}
+.intro h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 5px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.hundred{
+    width: 265px;
+}
+.t75{
+    width: 200px;
+}
+.fifty{
+    width: 125px;
+    background-color: blueviolet;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+ @media (max-width: 1415px){
+ .devpic{
+    display: none;
+  }
+} 
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 230px;
+    margin-top: 4px;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+
